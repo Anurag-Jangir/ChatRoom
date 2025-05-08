@@ -3,7 +3,6 @@ const http = require('http');
 const express = require('express');
 const socketio = require('socket.io');
 const formatMessage = require('./utils/messages');
-const redis = require('redis');
 require('dotenv').config();
 const { userJoin, getCurrentUser, userLeave, getRoomUsers } = require('./utils/users');
 
